@@ -1,0 +1,41 @@
+.post{
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 10px;
+}
+
+.post__header{
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 0.1px solid lightgrey;
+
+}
+
+.post__info{
+  margin-left: 10px;
+}
+
+.post__info > h2{
+  font-size: 16px;
+}
+
+.post__info > p{
+  color: grey;
+  font-size: 12px;
+}
+
+.post__body > p{
+  font-size: 15px;
+  overflow-wrap : anywhere;
+  padding: 10px 0;
+}
+
+.post__buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-top: 0.1px solid lightgrey;
+
+}
